@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+
+}
+
+.btn {
+position: fixed;
+cursor: pointer;
+padding: 20px 25px;
+
+}
+
+
+
+.title {
+  text-align: center;
+}
+
+
+
+
+.doggos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  
+}
+
+img {
+  border:2px solid black;
+  height:50vh;
+  width: 25vw;
+}
+
+img:hover {
+ transform: scale(1.2);
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+
+}
+
+a:hover {
+  color: blue;
+}
